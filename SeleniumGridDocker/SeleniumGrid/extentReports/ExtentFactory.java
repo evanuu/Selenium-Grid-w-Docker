@@ -1,6 +1,5 @@
 package SeleniumGrid.extentReports;
 
-import SeleniumGrid.SuiteBase;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -8,11 +7,9 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import org.openqa.selenium.Platform;
-import org.testng.ITest;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
-import java.io.File;
 import java.util.Arrays;
 import java.util.Date;
 
