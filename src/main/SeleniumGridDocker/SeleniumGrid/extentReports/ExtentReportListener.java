@@ -16,22 +16,22 @@ public class ExtentReportListener implements IInvokedMethodListener, ITestListen
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test Name -- " + result.getName() + " -- Successful");
+        System.out.println("Test Name --> " + result.getName() + " --> Successful");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test Name -- " + result.getName() + " -- Failed");
+        System.out.println("Test Name --> " + result.getName() + " --> Failed");
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("Test Name -- " + result.getName() + " -- Skipped");
+        System.out.println("Test Name --> " + result.getName() + " --> Skipped");
     }
 
     @Override
     public void onTestFailedWithTimeout(ITestResult result) {
-        System.out.println("Test Name -- " + result.getName() + " -- Timed Out");
+        System.out.println("Test Name --> " + result.getName() + " --> Timed Out");
     }
 
 }

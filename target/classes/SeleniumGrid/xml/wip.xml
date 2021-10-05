@@ -4,6 +4,7 @@
         <listener class-name="SeleniumGrid.extentReports.ExtentReportListener"/>
     </listeners>
     <test name="no grid chrome test">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="SeleniumGrid.noGridTestChrome"/>
         </classes>

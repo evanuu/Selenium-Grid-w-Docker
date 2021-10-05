@@ -13,6 +13,7 @@ import org.testng.annotations.Parameters;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class SuiteBase {
@@ -58,7 +59,7 @@ public class SuiteBase {
         // dcap.setVersion(version);
 
         driver = new RemoteWebDriver(new URL(nodeURL), dcap);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(url);
 
         return driver;
