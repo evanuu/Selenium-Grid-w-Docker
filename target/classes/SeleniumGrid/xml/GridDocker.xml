@@ -22,7 +22,7 @@
 <!--        <parameter name="platform" value="linux"/>-->
 <!--        <parameter name="url" value="https://www.archdaily.com/"/>-->
 <!--        <classes>-->
-<!--            <class name="SeleniumGrid.SkyHTestChrome"/>-->
+<!--            <class name="SeleniumGrid.SeleniumGrid.SkyHTestChrome"/>-->
 <!--        </classes>-->
 <!--    </test>-->
 </suite>
