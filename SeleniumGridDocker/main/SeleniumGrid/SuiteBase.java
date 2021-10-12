@@ -26,7 +26,7 @@ public class SuiteBase {
     }
 
     public static WebDriver getDriverInstance(String browser, String platform, String url) throws MalformedURLException {
-        String nodeURL = "http://10.0.0.150:4444/wd/hub";
+        String nodeURL = "";
         WebDriver driver = null;
         DesiredCapabilities dcap = new DesiredCapabilities();
 
