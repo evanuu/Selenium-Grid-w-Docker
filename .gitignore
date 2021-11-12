@@ -1,0 +1,16 @@
+/shelf/
+/workspace.xml
+.idea
+.factorypath
+.classpath
+.project
+/target
+
+# private info
+NodeURLString.java
+
+# testing files
+noGridTestChrome.java
+noGridChromeFast.java
+ArchDailyPageFactory.java
+wip.xml
